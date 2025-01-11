@@ -177,3 +177,13 @@ section {
   border-radius: 8px;
   background: #ffc239;
 }
+
+/* quote section css */
+.quote {
+  background-image: url("/assets/quote-bg.png");
+  background-repeat: no-repeat;
+  padding-top: 24px;
+}
+.yunus {
+  margin: 24px 0px;
+}
