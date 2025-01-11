@@ -199,14 +199,18 @@ button:hover {
 }
 
 /* quote section css */
+.quote-container {
+  background-color: white;
+  padding: 48px 28px;
+  border-radius: 16px;
+}
 .quote {
   background-image: url("/assets/quote-bg.png");
   background-repeat: no-repeat;
   padding-top: 24px;
-  border-radius: 16px;
+
   border: 1px solid rgba(14, 14, 14, 0.15);
-  background: #fff;
-  padding: 48px 24px;
+
   border: none;
 }
 .yunus {
@@ -365,7 +369,6 @@ button:hover {
   color: rgba(14, 14, 14, 0.7);
   text-align: center;
   font-size: 16px;
-
 }
 
 /* footer css */
