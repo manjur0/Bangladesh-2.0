@@ -64,3 +64,16 @@
   font-size: 48px;
   font-weight: 700px;
 }
+.hero-btn {
+  display: inline;
+  padding: 17px 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  border: none;
+  color: white;
+  margin-top: 16px;
+  font-size: 18Fpx;
+  border-radius: 8px;
+  background: #006a50;
+}
