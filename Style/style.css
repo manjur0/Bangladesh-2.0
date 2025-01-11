@@ -364,6 +364,7 @@ button:hover {
   font-size: 18px;
   color: white;
   cursor: pointer;
+  transition: 0.5s;
 }
 .news-buttom {
   color: rgba(14, 14, 14, 0.7);
