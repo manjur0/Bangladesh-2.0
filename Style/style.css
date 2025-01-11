@@ -15,6 +15,9 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
+button:hover {
+  background: #09a15c;
+}
 
 /* Nav css */
 .nav {
@@ -40,6 +43,7 @@ section {
   font-weight: 600;
   line-height: normal;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 /* Hero section css */
@@ -80,6 +84,7 @@ section {
   border-radius: 8px;
   background: #006a50;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 /* pillars section css */
@@ -150,6 +155,7 @@ section {
   font-size: 18px;
   border-radius: 8px;
   background: #006a50;
+  transition: 0.5s;
 }
 
 .vision-box-1 {
@@ -170,14 +176,20 @@ section {
 .vision-btn-1 {
   border-radius: 8px;
   background: #5490f5;
+  transition: 0.5s;
+  cursor: pointer;
 }
 .vision-btn-2 {
   border-radius: 8px;
-  background: #09a15c;
+  background: #006a50;
+  transition: 0.5s;
+  cursor: pointer;
 }
 .vision-btn-3 {
   border-radius: 8px;
   background: #ffc239;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 /* quote section css */
@@ -189,6 +201,7 @@ section {
   border: 1px solid rgba(14, 14, 14, 0.15);
   background: #fff;
   padding: 48px 24px;
+  border: none;
 }
 .yunus {
   margin: 24px 0px;
@@ -244,15 +257,16 @@ section {
 .single-amount-box {
   border-radius: 16px;
   border: 1px solid rgba(14, 14, 14, 0.15);
-  padding: 40px 80px;
+  padding: 50px 70px;
   background: #fff;
   cursor: pointer;
+  transition: 0.5s;
 }
 .single-amount-box:hover {
   background: #c6e4d6;
 }
 .single-amount-box > .amount {
   color: rgba(14, 14, 14, 0.8);
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 700;
 }
