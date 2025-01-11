@@ -360,3 +360,26 @@ button:hover {
   color: white;
   cursor: pointer;
 }
+
+/* footer css */
+.footer {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.footer-text {
+  color: #0f121f;
+  text-align: center;
+  margin: 32px 0px;
+  font-size: 28px;
+}
+.social-icon-box {
+  display: block;
+  margin: 32px 0px;
+  text-align: center;
+}
+.social-icon-box > img {
+  width: 24px;
+  margin-left: 24px;
+  cursor: pointer;
+}
