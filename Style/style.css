@@ -2,8 +2,10 @@
 * {
   margin: 0px;
   padding: 0px;
-  /* background-color: #f1f1f3; */
   font-family: "Fira Sans", serif;
+}
+body {
+  background-color: #f0f0f0; /* Light gray */
 }
 
 .container {
@@ -65,15 +67,41 @@
   font-weight: 700px;
 }
 .hero-btn {
-  display: inline;
   padding: 17px 34px;
   justify-content: center;
   align-items: center;
-  gap: 48px;
   border: none;
   color: white;
   margin-top: 16px;
   font-size: 18Fpx;
   border-radius: 8px;
   background: #006a50;
+}
+
+/* pillars section css */
+.pillar-container {
+  margin: 80px 0px;
+}
+.pillar-heading {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.pillars-box {
+  margin: 48px 0px;
+  display: flex;
+  gap: 32px;
+}
+.pillar-box {
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding: 24px;
+  border: none;
+  line-height: normal;
+}
+.pillar-box > h2 {
+  font-size: 24px;
+  margin: 18px 0px;
 }
