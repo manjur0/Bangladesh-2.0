@@ -349,6 +349,7 @@ button:hover {
   color: #0f121f;
   outline: none;
 }
+
 .subscribe-btn {
   background: #006a50;
   padding: 10px;
@@ -359,6 +360,12 @@ button:hover {
   font-size: 18px;
   color: white;
   cursor: pointer;
+}
+.news-buttom {
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  font-size: 16px;
+
 }
 
 /* footer css */
