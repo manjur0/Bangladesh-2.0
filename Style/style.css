@@ -218,3 +218,41 @@ section {
   flex-direction: column;
   margin: 24px 0px;
 }
+
+/* Donate Today section css */
+.donate-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 32px 0px;
+}
+.dontae-para {
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.amounts-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  margin: 48px 0px;
+}
+.single-amount-box {
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 40px 80px;
+  background: #fff;
+  cursor: pointer;
+}
+.single-amount-box:hover {
+  background: #c6e4d6;
+}
+.single-amount-box > .amount {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+}
