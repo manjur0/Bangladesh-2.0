@@ -7,7 +7,9 @@
 body {
   background-color: #f0f0f0; /* Light gray */
 }
-
+section {
+  margin: 80px 0px;
+}
 .container {
   max-width: 1280px;
   margin-left: auto;
@@ -73,7 +75,7 @@ body {
   border: none;
   color: white;
   margin-top: 16px;
-  font-size: 18Fpx;
+  font-size: 18px;
   border-radius: 8px;
   background: #006a50;
 }
@@ -104,4 +106,74 @@ body {
 .pillar-box > h2 {
   font-size: 24px;
   margin: 18px 0px;
+}
+
+/* Vision section css */
+.vision-content > h2 {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.vision-content > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 18px;
+  margin: 32px 0px;
+}
+
+.visions-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.vision-box {
+  padding: 32px;
+  border-radius: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.vision-box > span {
+  display: block;
+  padding: 18px 0px;
+  padding-right: 16px;
+}
+
+.vision-btn {
+  padding: 17px 34px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: white;
+  margin-top: 16px;
+  font-size: 18px;
+  border-radius: 8px;
+  background: #006a50;
+}
+
+.vision-box-1 {
+  border: 0px solid #5490f5;
+  background: rgba(84, 144, 245, 0.2);
+}
+.vision-box-2 {
+  border-radius: 16px;
+  border: 0px solid #09a15c;
+  background: #c6e4d6;
+}
+.vision-box-3 {
+  border-radius: 16px;
+  border: 0px solid #ffc239;
+  background: #f7ebcf;
+}
+
+.vision-btn-1 {
+  border-radius: 8px;
+  background: #5490f5;
+}
+.vision-btn-2 {
+  border-radius: 8px;
+  background: #09a15c;
+}
+.vision-btn-3 {
+  border-radius: 8px;
+  background: #ffc239;
 }
