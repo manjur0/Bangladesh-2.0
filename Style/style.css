@@ -68,7 +68,8 @@ section {
   font-size: 48px;
   font-weight: 700px;
 }
-.hero-btn {
+.hero-btn,
+.news-btn {
   padding: 17px 34px;
   justify-content: center;
   align-items: center;
@@ -78,6 +79,7 @@ section {
   font-size: 18px;
   border-radius: 8px;
   background: #006a50;
+  cursor: pointer;
 }
 
 /* pillars section css */
@@ -183,7 +185,36 @@ section {
   background-image: url("/assets/quote-bg.png");
   background-repeat: no-repeat;
   padding-top: 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding: 48px 24px;
 }
 .yunus {
+  margin: 24px 0px;
+}
+
+/* Resent news section css */
+.news-container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 48px;
+  border-radius: 24px;
+  background: #fff;
+  margin: 48px 0px;
+}
+
+.news-img {
+  border-radius: 18px;
+}
+.news-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+}
+.publish-time {
+  flex-direction: column;
   margin: 24px 0px;
 }
